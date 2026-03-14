@@ -4,7 +4,7 @@ function colaborador(props){
     return(
         <div className='colaborador'>
             <div className='cabecalho'>
-                <img src={props.imagem} alt=''/>
+                <img src={props.imagem} alt={props.nome}/>
             </div>
             <div className='rodape'>
                 <h4>{props.nome}</h4>

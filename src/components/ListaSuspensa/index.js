@@ -1,7 +1,6 @@
 import './ListaSuspensa.css'
 
 function ListaSuspensa(props){
-    console.log(props.lista)
     
     return(
         <div className='lista-suspensa'>
