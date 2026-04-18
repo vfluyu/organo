@@ -1,0 +1,6 @@
+# Diário
+git pull           # baixar atualizações
+# ... programar ...
+git add .          # preparar
+git commit -m "msg" # commitar
+git push           # enviar
