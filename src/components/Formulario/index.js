@@ -8,7 +8,7 @@ function Formulario(props) {
     const [nome, setnome] = useState('')
     const [cargo, setcargo] = useState('')
     const [imagem, setimagem] = useState('')
-    const [time, settime] = useState('')
+    const [time, settime] = useState('Programação')
     const aoSalvar = (evento) => {
         evento.preventDefault()
         props.aoColaboradorCadastrado({
@@ -17,6 +17,10 @@ function Formulario(props) {
             imagem,
             time
         })
+        setnome('')
+        setcargo('')
+        setimagem('')
+        settime('Programação')
     }
     return (
         <section className="formulario">
